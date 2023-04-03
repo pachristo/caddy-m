@@ -303,13 +303,13 @@
 
         .play-it-feel-yourself {
             font-size: 48px;
-    line-height: 72px;
-    text-transform: capitalize;
-    font-weight: 600;
-    display: inline-block;
-    width: 537px;
-    color: var(--white);
-    font-family: var(--font-poppins);
+            line-height: 72px;
+            text-transform: capitalize;
+            font-weight: 600;
+            display: inline-block;
+        
+            color: var(--white);
+            font-family: var(--font-poppins);
         }
 
         .music-player {
@@ -318,15 +318,27 @@
             position: fixed;
             z-index: 3000;
         }
+
+        @media(max-width:769px) {
+            .q-2-icon {
+
+                width: 108.5px;
+                height: 131px;
+
+            }
+            .btn-book-me-2{
+                margin-top:3px!important;
+            }
+        }
     </style>
     <div class="container-fluid  ">
 
-        <div class="col-10 offset-1">
+        <div class="col-lg-10 offset-lg-1">
             <div class="row mx-0">
-                <div class="col-3">
+                <div class="col-lg-3 col-2">
                     <img class="q-2-icon" alt="" src="./zip/public/1q-2@2x.png">
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-7">
                     <nav class="">
                         <ul class="dt-menu">
 
@@ -337,14 +349,9 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="text-center col-2">
-                    <a href="#" class="btn book-me-dt"> Book Me</a>
-                    <!-- <div class="home-screen-inner position-relative">
-                        <button class="rectangle-container">
-                          </button><button class="group-inner" autofocus=""></button>
-                          <div class="book-me1">Book me</div>
-                        
-                      </div> -->
+                <div class="text-center col-lg-2 col-2">
+                    <a href="#" class="btn book-me-dt "> Book Me</a>
+                  
                 </div>
 
             </div>
@@ -358,17 +365,17 @@
                 </div>
 
                 <div class="second-page-text offset-lg-1 col-12 col-lg-10">
-                    <div class="hi position-relative mt-lg-5 mt-2">
+                    <div class="hi position-relative col-12 mt-lg-5 mt-2">
                         <p class="most-popular-release">
-                            Hi 👋 I’m Caddyydaddy, welcome to my world, feel free to explore
+                            Hi 👋 I’m Caddyydaddy, welcome to my world, feel free to explore and listen to my music.
                         </p>
-                        <p class="most-popular-release">and listen to my music.</p>
+                        <p class="most-popular-release"></p>
                     </div>
                 </div>
 
                 <div class="first-newsleter-box mt-lg-5 mt-3">
                     <form action="#">
-                        <div class="col-lg-9 offset-lg-1 col-10 offset-1 position-relative">
+                        <div class="col-lg-9 offset-lg-1 col-12 position-relative">
 
 
                             <input type="email" class="newsletter-input" placeholder="Submit Your email here">
@@ -450,79 +457,88 @@
 
             </div>
 
-<style>
+            <style>
+                .play-it-text {
 
-    .play-it-text {
-   
-        text-transform: capitalize;
-        font-weight: 500;
-        text-align: left;
-        font-size: var(--font-size-base);
-  
-        color: var(--color-gray-300);
-    }
-    .footer-icon{
-        width:200px;
-    }
-    .app-footer {
-        background-color: #000;
-    }
-    .footer-bar{
-        line-height: 36px;
+                    text-transform: capitalize;
+                    font-weight: 500;
+                    text-align: left;
+                    font-size: var(--font-size-base);
 
-    }
-.footer-bar>.head{
-    text-align: left;
-    font-size: var(--font-size-base);
-    color: var(--white);
-    font-family: var(--font-poppins);
-    font-weight:600
-}
-.footer-bar>.children>.link>a,.footer-bar>.children>.text{
-text-transform: capitalize;
-text-align: left;
-font-size: var(--font-size-base);
-color: var(--white);
-font-family: var(--font-poppins);
+                    color: var(--color-gray-300);
+                }
 
-}
-img.socials {
-    padding: 6px;
-    border: 1px solid white;
-    width: 27px;
-    height: 27px;
-    margin: 7px;
-    border-radius: 15px;
-}
+                .footer-icon {
+                    width: 200px;
+                }
 
-</style>
+                .app-footer {
+                    background-color: #000;
+                }
+
+                .footer-bar {
+                    line-height: 36px;
+
+                }
+
+                .footer-bar>.head {
+                    text-align: left;
+                    font-size: var(--font-size-base);
+                    color: var(--white);
+                    font-family: var(--font-poppins);
+                    font-weight: 600
+                }
+
+                .footer-bar>.children>.link>a,
+                .footer-bar>.children>.text {
+                    text-transform: capitalize;
+                    text-align: left;
+                    font-size: var(--font-size-base);
+                    color: var(--white);
+                    font-family: var(--font-poppins);
+
+                }
+
+                img.socials {
+                    padding: 6px;
+                    border: 1px solid white;
+                    width: 27px;
+                    height: 27px;
+                    margin: 7px;
+                    border-radius: 15px;
+                }
+            </style>
             <div class="col-12 mt-5">
                 <div class="d-flex flex-lg-nowrap flex-wrap mx-0">
                     <div clas="col-lg-8">
-                          <div class="play-it-feel-yourself col-lg-12">Play it till you feel the groove.</div>
+                        <div class="play-it-feel-yourself col-lg-12">Play it till you feel the groove.</div>
 
-                          <div class="mx-0 row my-5">
+                        <div class="mx-0 row my-5">
                             <div class="col-lg-6 mb-4">
-                                <img  class="play-it-img" src="./zip/public/correct.svg">&nbsp;<span class="play-it-text"> Access To Caddyydaddy Hits</span>
-                            </div>
-
-                            <div class="col-lg-6 mb-4">
-                                <img  class="play-it-img" src="./zip/public/correct.svg">&nbsp;<span class="play-it-text"> One Time Download payment</span>
-                            </div>
-                            <div class="col-lg-6 mb-4">
-                                <img class="play-it-img" src="./zip/public/correct.svg">&nbsp;<span class="play-it-text"> Easy song Findability</span>
+                                <img class="play-it-img" src="./zip/public/correct.svg">&nbsp;<span
+                                    class="play-it-text"> Access To Caddyydaddy Hits</span>
                             </div>
 
                             <div class="col-lg-6 mb-4">
-                                <img class="play-it-img" src="./zip/public/correct.svg">&nbsp;<span class="play-it-text"> AI Playlist Generator</span>
+                                <img class="play-it-img" src="./zip/public/correct.svg">&nbsp;<span
+                                    class="play-it-text"> One Time Download payment</span>
                             </div>
-                          </div>
+                            <div class="col-lg-6 mb-4">
+                                <img class="play-it-img" src="./zip/public/correct.svg">&nbsp;<span
+                                    class="play-it-text"> Easy song Findability</span>
+                            </div>
+
+                            <div class="col-lg-6 mb-4">
+                                <img class="play-it-img" src="./zip/public/correct.svg">&nbsp;<span
+                                    class="play-it-text"> AI Playlist Generator</span>
+                            </div>
+                        </div>
                     </div>
-              
 
-                <div class="offset-lg-1 col-3 ">
-                    <a href="#" class="btn book-me-dt py-lg-4 px-lg-3 p-2"> Book Me</a>
-                </div>
+
+                    <div class="offset-lg-1 col-lg-2 col-12 text-center mb-lg-0 mb-5">
+                        <a href="#" class="btn book-me-dt btn-book-me-2 py-lg-4 px-lg-3 p-2"> Book Me</a>
+                    </div>
 
                 </div>
             </div>
@@ -532,19 +548,19 @@ img.socials {
     </div>
     <div class="app-footer mt-auto pb-5 pt-lg-5 pt-2">
         <div class="container">
-            <div class="row mx-0"> 
+            <div class="row mx-0">
                 <div class="col-lg-3 text-left">
-                                <img class="footer-icon" alt="" src="./zip/public/1q-2@2x.png">
+                    <img class="footer-icon" alt="" src="./zip/public/1q-2@2x.png">
                 </div>
                 <div class="col-lg-3 text-left">
                     <div class="footer-bar">
                         <div class="head">Explore</div>
                         <div class="children">
-                          <div class="link"><a href="#">Most popular release</a></div>
-                          <div class="link"><a href="#">New releases</a></div>
-                          <div class="link"><a href="#">Playlist</a></div>
+                            <div class="link"><a href="#">Most popular release</a></div>
+                            <div class="link"><a href="#">New releases</a></div>
+                            <div class="link"><a href="#">Playlist</a></div>
                         </div>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="col-lg-3 text-left">
@@ -553,37 +569,39 @@ img.socials {
                         <div class="children">
                             <div class="text">
                                 Connect with me on any of the social platform listed.
-                              </div>
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-lg-3 text-left">
                     <div class="footer-bar">
                         <div class="head">&nbsp;</div>
                         <div class="children">
                             <div class="text text-center">
-                               <a href="">
-  <img src="./zip/public/facebook.svg" class="socials">
-                               </a>
-                               <a href="">
-  <img src="./zip/public/twitter.svg" class="socials"> 
-                               </a>
-                               <a href="">
-<img src="./zip/public/instagram.svg" class="socials">
-                               </a>
-                            
-                                
-                              </div>
+                                <a href="">
+                                    <img src="./zip/public/facebook.svg" class="socials">
+                                </a>
+                                <a href="">
+                                    <img src="./zip/public/twitter.svg" class="socials">
+                                </a>
+                                <a href="">
+                                    <img src="./zip/public/instagram.svg" class="socials">
+                                </a>
+
+
+                            </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
 
 
 
                 <div class="col-12">
 
-                    <p>&nbsp;</p><p>&nbsp;</p> <p>&nbsp;</p>
-                        
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+
 
 
                 </div>
@@ -591,9 +609,9 @@ img.socials {
 
 
             </div>
-           
 
-          
+
+
         </div>
 
 

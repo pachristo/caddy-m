@@ -1,0 +1,513 @@
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Caddy Songs </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="icon" type="image/x-icon" href="./assets/images/portfolio/favicon_new.ico" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- MDB -->
+    <link href="./zip/global.css" rel="stylesheet" />
+    <link href="./zip/home-screen.css" rel="stylesheet" />
+    <link href="./zip/index.css" rel="stylesheet" />
+
+</head>
+
+<!-- HEADER START -->
+
+<!-- HEADER END -->
+
+<body class="top-bg ">
+    <style>
+        .top-bg {
+
+
+            background: linear-gradient(#0000009e, #0000009e), url(./zip/public/whatsapp-image-20230329-at-935-2@2x.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .dt-menu {
+            display: flex;
+
+        }
+
+        .dt-menu>li {
+            margin: 65px 7vw 0px 0px;
+            color: white;
+            text-align: center;
+
+
+
+            font-size: var(--font-size-base);
+            color: var(--white);
+            font-family: var(--font-poppins);
+
+        }
+
+        .dt-menu>li>a {
+            color: var(--color-gray-200);
+        }
+
+        .dt-menu>li::marker {
+            color: transparent
+        }
+
+        .book-me-dt {
+            background-color: var(--color-red-200);
+            font-size: var(--font-size-base);
+            color: var(--white);
+            font-family: var(--font-poppins);
+            border-radius: 16px;
+            /* height: 41px; */
+            width: 168px;
+            margin-top: 65px;
+        }
+
+        .first-page-text {
+
+            margin-top: 223px;
+            /* left: 284px; */
+            font-size: 60.28px;
+
+            font-size: 60.28px;
+            text-transform: capitalize;
+            font-weight: 600;
+            display: inline-block;
+            width: 872.84px;
+            color: var(--white);
+            font-family: var(--font-poppins);
+        }
+
+        .second-page-text>.hi {
+            font-size: 22.61px;
+            line-height: 40.19px;
+            color: var(--color-gray-300);
+            display: inline-block;
+            width: 769.86px;
+            font-family: var(--font-poppins);
+        }
+
+        .newsletter-input {
+            background-color: rgba(255, 255, 255, 0.52);
+            width: 100%;
+            height: 65.42px;
+            border-radius: 20.09px;
+            padding: 20px;
+            border: 0px;
+        }
+
+        .newsletter-btn {
+            background-color: var(--color-red-100);
+            width: 151.96px;
+            position: absolute;
+            height: 55.28px;
+            /* left: 40.19px; */
+            font-size: 20.09px;
+            font-weight: 500;
+            font-family: var(--font-poppins);
+            color: white;
+            border-radius: 20.09px;
+            top: 5px;
+            right: 21px;
+        }
+
+        .newsletter-input::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            text-align: left;
+            font-size: var(--font-size-base);
+            color: var(--white);
+            font-family: var(--font-poppins);
+
+        }
+
+        .stream-title {
+            font-size: 30.92px;
+            color: var(--white);
+            font-family: var(--font-poppins);
+            font-weight: 700;
+        }
+
+
+        /*music card */
+       .player-music-icon-img, .music-card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+
+
+        }
+
+        .music-card>.image-card>img {
+
+            border-radius: 9px;
+        }
+
+        .music-title>.second {
+            display: inline-block;
+            color: var(--gray-500);
+        }
+
+        .music-title>.first {
+            display: inline-block;
+            color: white;
+        }
+
+        .music-player {
+            width: calc(100% + 13.62px);
+            right: -5.59px;
+            bottom: 780.17px;
+            left: -8.03px;
+            background-color: #1f1f1f;
+
+            font-size: 14.13px;
+            font-family: var(--font-inter);
+            border-top: 1px solid var(--color-red-100);
+
+        }
+
+        .player-music-icon>img {
+           width:65px
+        }
+    </style>
+    <div class="container-fluid  ">
+
+        <div class="col-10 offset-1">
+            <div class="row mx-0">
+                <div class="col-3">
+                    <img class="q-2-icon" alt="" src="./zip/public/1q-2@2x.png">
+                </div>
+                <div class="col-6">
+                    <nav class="">
+                        <ul class="dt-menu">
+
+                            <li><a href="#!" id="slctd">About Me</a></li>
+                            <li><a href="">Music</a></li>
+                            <li><a href="">Book Me</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="text-center col-2">
+                    <a href="#" class="btn book-me-dt"> Book Me</a>
+                    <!-- <div class="home-screen-inner position-relative">
+                        <button class="rectangle-container">
+                          </button><button class="group-inner" autofocus=""></button>
+                          <div class="book-me1">Book me</div>
+                        
+                      </div> -->
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="col-12">
+                <div class="first-page-text offset-lg-1 col-12 col-lg-10">
+                    Don’t Stop, Play it till you feel the Groove.
+                </div>
+
+                <div class="second-page-text offset-lg-1 col-12 col-lg-10">
+                    <div class="hi position-relative mt-lg-5 mt-2">
+                        <p class="most-popular-release">
+                            Hi 👋 I’m Caddyydaddy, welcome to my world, feel free to explore
+                        </p>
+                        <p class="most-popular-release">and listen to my music.</p>
+                    </div>
+                </div>
+
+                <div class="first-newsleter-box mt-lg-5 mt-3">
+                    <form action="#">
+                        <div class="col-lg-9 offset-lg-1 col-10 offset-1 position-relative">
+
+
+                            <input type="email" class="newsletter-input" placeholder="Submit Your email here">
+                            <button type="submit" class="btn newsletter-btn ">Submit</button>
+
+
+                        </div>
+                    </form>
+
+
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="music-board mt-lg-5 mt-3 col-12">
+                <div class="col-12 mb-5">
+                    <span class="stream-title">Listen to my Sound</span>
+
+                </div>
+                <div class="row mx-0">
+
+                    <div class="col-lg-3 mb-3 col-6">
+                        <div class="music-card ">
+                            <div class="image-card col-12 px-0 text-center">
+                                <img class="w-100" alt="" src="./zip/public/summer-walker@2x.png">
+                            </div>
+                            <div class="music-title mt-2">
+
+                                <b class="first">Criss Cross</b><br><b class="second">Caddyydaddy</b>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3 col-6">
+                        <div class="music-card ">
+                            <div class="image-card col-12 px-0 text-center">
+                                <img class="w-100" alt="" src="./zip/public/summer-walker@2x.png">
+                            </div>
+                            <div class="music-title mt-2">
+
+                                <b class="first">Criss Cross</b><br><b class="second">Caddyydaddy</b>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3 col-6">
+                        <div class="music-card ">
+                            <div class="image-card col-12 px-0 text-center">
+                                <img class="w-100" alt="" src="./zip/public/summer-walker@2x.png">
+                            </div>
+                            <div class="music-title mt-2">
+
+                                <b class="first">Criss Cross</b><br><b class="second">Caddyydaddy</b>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3 col-6">
+                        <div class="music-card ">
+                            <div class="image-card col-12 px-0 text-center">
+                                <img class="w-100" alt="" src="./zip/public/summer-walker@2x.png">
+                            </div>
+                            <div class="music-title mt-2">
+
+                                <b class="first">Criss Cross</b><br><b class="second">Caddyydaddy</b>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <style>
+        .play-music-title-first {
+            font-size: 14.13px;
+            font-family: var(--font-inter);
+            color: white;
+        }
+        .play-music-title-second{
+            font-size: 12.11px;
+    line-height: 16.15px;
+    color: var(--gray-500);
+        }
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* margin-bottom: 30px; */
+    align-items: center;
+    justify-content: space-around;
+    font-size: 6px;
+    color: #ffffff94;
+}
+.slider_container{
+    color: #ffffff94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.seek_slider {
+    width: 88%;
+    color: var(--color-red-200);
+}
+.volume_slider{
+    color: var(--color-red-200);
+
+}
+.seek_slider, .volume_slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 3px;
+    background: #ffffff;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.music-repeat.randomActive,.music-random.randomActive {
+    background: #ffffff2e;
+    border-radius: 50px;
+}
+    </style>
+<script>
+
+ 
+</script>
+    <style>
+    .slidecontainer {
+      width: 100%;
+    }
+    
+    .slider {
+      -webkit-appearance: none;
+      width: 100%;
+      height: 25px;
+      outline: none;
+      animation: color-range 100s linear forwards paused;
+      background: linear-gradient(90deg, currentColor 50%, rgba(0,0,0,0.1) 50%);
+      opacity: 0.7;
+      -webkit-transition: .2s;
+      transition: opacity .2s;
+    }
+    
+   .volume_slider:hover, .seek_slider:hover {
+      opacity: 1;
+    }
+    
+    .volume_slider::-webkit-slider-thumb,.seek_slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 14px;
+      height: 14px;
+      background-color: var(--color-red-200);
+      cursor: pointer;
+      border-radius:9px;
+    }
+    
+  .volume_slider::-moz-range-thumb,  .seek_slider::-moz-range-thumb {
+      width: 14px;
+      height: 14px;
+      background-color: var(--color-red-200);
+      cursor: pointer;
+      border-radius:9px;
+    }
+    
+    @keyframes color-range {
+      0% { color: steelblue }
+      100% { color: green }
+    }</style>
+
+    <div class="music-player   w-100">
+        
+        <div class="col-12 col-lg-8 offset-lg-2 py-2">
+            <div class="row mx-0">
+                <div class="col-1">
+                    <div class="player-music-icon">
+                        <img class="player-music-icon-img " alt="" src="./zip/public/album-cover@2x.png">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="player-music-title pt-2">
+                        <div class="play-music-title-first">In My Feelings</div>
+                        <div class="play-music-title-second">Drake</div>
+                    </div>
+
+                </div>
+
+                <div class=" col-9">
+                    <div class="row mx-0">
+                        <div class="col-lg-8  col-8 text-center">
+
+                            <div class="buttons">
+                                <div class="random-track" onclick="randomTrack()">
+                                    <!-- <i class="fas fa-random fa-2x" title="random"></i> -->
+                                    <img src="./zip/public/shuffle.svg" class="music-random">
+                                </div>
+                                <div class="prev-track" onclick="prevTrack()">
+                                     <i class="fas fa-angle-left fa-2x"></i>
+                                     
+                                 </div>
+                                 <div class="playpause-track" onclick="playpauseTrack()">
+                                     <i class="fa fa-play-circle fa-5x"></i>
+                                 </div>
+                                 <div class="next-track" onclick="BtnnextTrack()">
+                                     <i class="fas fa-angle-right fa-2x"></i>
+                                 </div>
+                                 <div class="repeat-track" onclick="repeatTrack()">
+                                     <!-- <i class="fa fa-repeat fa-2x" title="repeat"></i> -->
+                                     <img src="./zip/public/Button.svg" class="music-repeat">
+                                 </div>
+                            </div>
+                        </div> 
+                        	
+<!-- <i class=""></i> -->
+                        <div class="col-4">
+                            <div class="slider_container">
+                                <i class="fa fa-volume-up"></i> &nbsp;
+                                 <input type="range" min="1" max="100" value="99" class="volume_slider"oninput="setColor(this)"  onchange="setVolume()"> &nbsp;
+                                 
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-8 pt-3">
+                            <div class="slider_container">
+                                <div class="current-time">00:00</div> &nbsp;
+                                 <input type="range" min="1" max="100" value="0" class="seek_slider" oninput="setColor(this)" onchange="seekTo()"> &nbsp;
+                                 <div class="total-duration">00:00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+        <script src="script.js">
+          
+
+
+        </script>
+
+</body>
+
+</html>
